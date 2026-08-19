@@ -1,0 +1,7 @@
+month,forecasted_price,interval_low,interval_high,trailing_6mo_avg,recommendation,confidence,recommendation_detail
+2026-09,3175.74,2985.97,3365.5,3396.82,Wait,High,Wait (high confidence)
+2026-10,3206.99,3017.22,3396.75,3396.82,Wait,High,Wait (high confidence)
+2026-11,3233.04,3043.27,3422.8,3396.82,Wait,High,Wait (high confidence)
+2026-12,3258.51,3068.75,3448.28,3396.82,Wait,High,Wait (high confidence)
+2027-01,3280.41,3090.64,3470.17,3396.82,Wait,High,Wait (high confidence)
+2027-02,3301.64,3111.87,3491.4,3396.82,Neutral / Monitor,High,Neutral / Monitor (high confidence)

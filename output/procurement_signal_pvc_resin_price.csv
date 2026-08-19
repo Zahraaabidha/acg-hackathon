@@ -1,0 +1,7 @@
+month,forecasted_price,interval_low,interval_high,trailing_6mo_avg,recommendation,confidence,recommendation_detail
+2026-09,337.48,317.51,357.45,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)
+2026-10,337.44,317.47,357.41,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)
+2026-11,338.24,318.27,358.21,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)
+2026-12,338.01,318.04,357.98,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)
+2027-01,338.36,318.39,358.33,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)
+2027-02,338.15,318.18,358.12,347.02,Neutral / Monitor,High,Neutral / Monitor (high confidence)

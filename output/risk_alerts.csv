@@ -1,0 +1,49 @@
+month,driver,pct_change,z_score,affected_targets
+2018-05,usd_inr_rate,2.8,2.05,aluminium_price
+2018-09,usd_inr_rate,3.8,2.91,aluminium_price
+2018-11,crude_oil_price,-19.48,-1.57,"aluminium_price, pvc_resin_price"
+2018-11,usd_inr_rate,-2.48,-2.44,aluminium_price
+2019-02,freight_index,-29.64,-1.8,"aluminium_price, pvc_resin_price"
+2019-03,usd_inr_rate,-2.37,-2.34,aluminium_price
+2019-07,freight_index,29.57,1.69,"aluminium_price, pvc_resin_price"
+2019-08,usd_inr_rate,3.56,2.71,aluminium_price
+2019-10,energy_price_index,-4.84,-1.74,aluminium_price
+2020-01,freight_index,-28.08,-1.7,"aluminium_price, pvc_resin_price"
+2020-02,freight_index,-25.01,-1.52,"aluminium_price, pvc_resin_price"
+2020-03,freight_index,-26.23,-1.59,"aluminium_price, pvc_resin_price"
+2020-03,crude_oil_price,-42.21,-3.32,"aluminium_price, pvc_resin_price"
+2020-03,usd_inr_rate,4.22,3.27,aluminium_price
+2020-04,crude_oil_price,-43.35,-3.4,"aluminium_price, pvc_resin_price"
+2020-04,usd_inr_rate,2.17,1.52,aluminium_price
+2020-05,freight_index,-28.68,-1.74,"aluminium_price, pvc_resin_price"
+2020-05,crude_oil_price,72.61,5.48,"aluminium_price, pvc_resin_price"
+2020-06,crude_oil_price,34.12,2.53,"aluminium_price, pvc_resin_price"
+2020-06,energy_price_index,5.08,1.55,aluminium_price
+2020-06,freight_index,40.85,2.35,"aluminium_price, pvc_resin_price"
+2020-09,usd_inr_rate,-1.4,-1.52,aluminium_price
+2020-10,energy_price_index,-5.12,-1.84,aluminium_price
+2021-01,freight_index,43.66,2.52,"aluminium_price, pvc_resin_price"
+2021-03,freight_index,40.6,2.34,"aluminium_price, pvc_resin_price"
+2021-04,usd_inr_rate,2.33,1.66,aluminium_price
+2021-05,usd_inr_rate,-1.76,-1.83,aluminium_price
+2021-06,energy_price_index,6.03,1.87,aluminium_price
+2021-11,freight_index,-34.35,-2.07,"aluminium_price, pvc_resin_price"
+2022-06,energy_price_index,8.11,2.56,aluminium_price
+2022-08,energy_price_index,11.38,3.65,aluminium_price
+2022-08,freight_index,-32.71,-1.98,"aluminium_price, pvc_resin_price"
+2022-09,energy_price_index,-5.98,-2.12,aluminium_price
+2022-10,usd_inr_rate,2.54,1.83,aluminium_price
+2022-10,energy_price_index,-6.56,-2.32,aluminium_price
+2022-11,energy_price_index,-4.74,-1.71,aluminium_price
+2023-03,freight_index,32.36,1.85,"aluminium_price, pvc_resin_price"
+2023-06,energy_price_index,6.34,1.97,aluminium_price
+2023-10,energy_price_index,-4.24,-1.54,aluminium_price
+2023-12,freight_index,52.34,3.03,"aluminium_price, pvc_resin_price"
+2024-06,energy_price_index,8.39,2.65,aluminium_price
+2025-06,energy_price_index,6.55,2.04,aluminium_price
+2026-02,energy_price_index,5.56,1.71,aluminium_price
+2026-03,energy_price_index,-7.72,-2.7,aluminium_price
+2026-03,crude_oil_price,41.66,3.11,"aluminium_price, pvc_resin_price"
+2026-03,usd_inr_rate,2.28,1.62,aluminium_price
+2026-05,usd_inr_rate,2.2,1.54,aluminium_price
+2026-06,energy_price_index,7.0,2.19,aluminium_price

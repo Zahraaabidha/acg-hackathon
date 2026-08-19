@@ -1,0 +1,23 @@
+Aluminium is forecast at 3,176 (high confidence) for 2026-09. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+Aluminium is forecast at 3,207 (high confidence) for 2026-10. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+Aluminium is forecast at 3,233 (high confidence) for 2026-11. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+Aluminium is forecast at 3,259 (high confidence) for 2026-12. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+Aluminium is forecast at 3,280 (high confidence) for 2027-01. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+Aluminium is forecast at 3,302 (high confidence) for 2027-02. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 337 (high confidence) for 2026-09. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 337 (high confidence) for 2026-10. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 338 (high confidence) for 2026-11. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 338 (high confidence) for 2026-12. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 338 (high confidence) for 2027-01. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
+
+PVC resin is forecast at 338 (high confidence) for 2027-02. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month.
