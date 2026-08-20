@@ -1,0 +1,1069 @@
+{
+  "generatedAt": "2026-08-19T09:47:21.310428+00:00",
+  "dataAsOf": "2026-08",
+  "materials": {
+    "aluminium_price": {
+      "key": "aluminium_price",
+      "label": "Aluminium",
+      "color": "#2a78d6",
+      "history": [
+        {
+          "month": "2025-09",
+          "price": 2654.48
+        },
+        {
+          "month": "2025-10",
+          "price": 2793.09
+        },
+        {
+          "month": "2025-11",
+          "price": 2819.06
+        },
+        {
+          "month": "2025-12",
+          "price": 2875.9
+        },
+        {
+          "month": "2026-01",
+          "price": 3133.98
+        },
+        {
+          "month": "2026-02",
+          "price": 3065.19
+        },
+        {
+          "month": "2026-03",
+          "price": 3372.95
+        },
+        {
+          "month": "2026-04",
+          "price": 3594.38
+        },
+        {
+          "month": "2026-05",
+          "price": 3658.22
+        },
+        {
+          "month": "2026-06",
+          "price": 3438.85
+        },
+        {
+          "month": "2026-07",
+          "price": 3158.26
+        },
+        {
+          "month": "2026-08",
+          "price": 3158.26
+        }
+      ],
+      "forecast": [
+        {
+          "month": "2026-09",
+          "forecastedPrice": 3175.74,
+          "intervalLow": 2985.97,
+          "intervalHigh": 3365.5,
+          "trailingAvg": 3396.82,
+          "recommendation": "Wait",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,176 (high confidence) for 2026-09. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-10",
+          "forecastedPrice": 3206.99,
+          "intervalLow": 3017.22,
+          "intervalHigh": 3396.75,
+          "trailingAvg": 3396.82,
+          "recommendation": "Wait",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,207 (high confidence) for 2026-10. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-11",
+          "forecastedPrice": 3233.04,
+          "intervalLow": 3043.27,
+          "intervalHigh": 3422.8,
+          "trailingAvg": 3396.82,
+          "recommendation": "Wait",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,233 (high confidence) for 2026-11. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-12",
+          "forecastedPrice": 3258.51,
+          "intervalLow": 3068.75,
+          "intervalHigh": 3448.28,
+          "trailingAvg": 3396.82,
+          "recommendation": "Wait",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,259 (high confidence) for 2026-12. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2027-01",
+          "forecastedPrice": 3280.41,
+          "intervalLow": 3090.64,
+          "intervalHigh": 3470.17,
+          "trailingAvg": 3396.82,
+          "recommendation": "Wait",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,280 (high confidence) for 2027-01. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2027-02",
+          "forecastedPrice": 3301.64,
+          "intervalLow": 3111.87,
+          "intervalHigh": 3491.4,
+          "trailingAvg": 3396.82,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "Aluminium is forecast at 3,302 (high confidence) for 2027-02. This is primarily driven by crude oil (same-month correlation 0.70) and energy prices (same-month correlation 0.67). No unusual driver volatility detected this month."
+        }
+      ],
+      "featureImportances": [
+        {
+          "feature": "aluminium_price_lag1",
+          "coefficient": 398.885
+        },
+        {
+          "feature": "crude_oil_price",
+          "coefficient": 126.07
+        },
+        {
+          "feature": "crude_oil_price_lag1",
+          "coefficient": -99.419
+        },
+        {
+          "feature": "energy_price_index_roll3",
+          "coefficient": 50.132
+        },
+        {
+          "feature": "crude_oil_price_roll3",
+          "coefficient": -38.723
+        },
+        {
+          "feature": "energy_price_index",
+          "coefficient": -31.005
+        },
+        {
+          "feature": "aluminium_price_lag3",
+          "coefficient": -18.007
+        },
+        {
+          "feature": "shock_zscore_prior",
+          "coefficient": -15.057
+        },
+        {
+          "feature": "usd_inr_rate",
+          "coefficient": -7.915
+        },
+        {
+          "feature": "usd_inr_rate_roll3",
+          "coefficient": 7.626
+        },
+        {
+          "feature": "usd_inr_rate_lag6",
+          "coefficient": 2.395
+        }
+      ],
+      "accuracy": {
+        "ridge": {
+          "MAE": 101.876,
+          "RMSE": 125.008,
+          "MAPE": 3.182,
+          "directionalAccuracy": 75.0
+        },
+        "naive": {
+          "MAE": 141.419,
+          "RMSE": 176.125,
+          "MAPE": 4.394,
+          "directionalAccuracy": 8.333
+        }
+      },
+      "whatIf": {
+        "baseCrudeOilPrice": 80.46,
+        "baseUsdInrRate": 95.32,
+        "crudeOilRawCoefficient": 9.0863,
+        "usdInrRawCoefficient": 3.9024
+      },
+      "costExposure": [
+        {
+          "month": "2026-09",
+          "priceChangePct": -6.51,
+          "costBaseShiftPct": -2.28
+        },
+        {
+          "month": "2026-10",
+          "priceChangePct": -5.59,
+          "costBaseShiftPct": -1.96
+        },
+        {
+          "month": "2026-11",
+          "priceChangePct": -4.82,
+          "costBaseShiftPct": -1.69
+        },
+        {
+          "month": "2026-12",
+          "priceChangePct": -4.07,
+          "costBaseShiftPct": -1.43
+        },
+        {
+          "month": "2027-01",
+          "priceChangePct": -3.43,
+          "costBaseShiftPct": -1.2
+        },
+        {
+          "month": "2027-02",
+          "priceChangePct": -2.8,
+          "costBaseShiftPct": -0.98
+        }
+      ]
+    },
+    "pvc_resin_price": {
+      "key": "pvc_resin_price",
+      "label": "PVC resin",
+      "color": "#eb6834",
+      "history": [
+        {
+          "month": "2025-09",
+          "price": 309.16
+        },
+        {
+          "month": "2025-10",
+          "price": 309.28
+        },
+        {
+          "month": "2025-11",
+          "price": 307.1
+        },
+        {
+          "month": "2025-12",
+          "price": 302.52
+        },
+        {
+          "month": "2026-01",
+          "price": 303.51
+        },
+        {
+          "month": "2026-02",
+          "price": 308.31
+        },
+        {
+          "month": "2026-03",
+          "price": 312.71
+        },
+        {
+          "month": "2026-04",
+          "price": 331.42
+        },
+        {
+          "month": "2026-05",
+          "price": 376.88
+        },
+        {
+          "month": "2026-06",
+          "price": 367.41
+        },
+        {
+          "month": "2026-07",
+          "price": 346.85
+        },
+        {
+          "month": "2026-08",
+          "price": 346.85
+        }
+      ],
+      "forecast": [
+        {
+          "month": "2026-09",
+          "forecastedPrice": 337.48,
+          "intervalLow": 317.51,
+          "intervalHigh": 357.45,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 337 (high confidence) for 2026-09. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-10",
+          "forecastedPrice": 337.44,
+          "intervalLow": 317.47,
+          "intervalHigh": 357.41,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 337 (high confidence) for 2026-10. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-11",
+          "forecastedPrice": 338.24,
+          "intervalLow": 318.27,
+          "intervalHigh": 358.21,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 338 (high confidence) for 2026-11. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2026-12",
+          "forecastedPrice": 338.01,
+          "intervalLow": 318.04,
+          "intervalHigh": 357.98,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 338 (high confidence) for 2026-12. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2027-01",
+          "forecastedPrice": 338.36,
+          "intervalLow": 318.39,
+          "intervalHigh": 358.33,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 338 (high confidence) for 2027-01. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        },
+        {
+          "month": "2027-02",
+          "forecastedPrice": 338.15,
+          "intervalLow": 318.18,
+          "intervalHigh": 358.12,
+          "trailingAvg": 347.02,
+          "recommendation": "Neutral / Monitor",
+          "confidence": "High",
+          "narrative": "PVC resin is forecast at 338 (high confidence) for 2027-02. This is primarily driven by crude oil (correlation 0.79, effect persists to a 1-month lag). No unusual driver volatility detected this month."
+        }
+      ],
+      "featureImportances": [
+        {
+          "feature": "crude_oil_price",
+          "coefficient": 12.172
+        },
+        {
+          "feature": "crude_oil_price_roll3",
+          "coefficient": 9.702
+        },
+        {
+          "feature": "crude_oil_price_lag1",
+          "coefficient": 7.305
+        },
+        {
+          "feature": "usd_inr_rate_lag6",
+          "coefficient": 3.043
+        },
+        {
+          "feature": "shock_zscore_prior",
+          "coefficient": 1.593
+        },
+        {
+          "feature": "usd_inr_rate_roll3",
+          "coefficient": -0.82
+        },
+        {
+          "feature": "usd_inr_rate",
+          "coefficient": -0.806
+        }
+      ],
+      "accuracy": {
+        "ridge": {
+          "MAE": 8.197,
+          "RMSE": 11.632,
+          "MAPE": 2.478,
+          "directionalAccuracy": 75.0
+        },
+        "naive": {
+          "MAE": 9.665,
+          "RMSE": 15.866,
+          "MAPE": 2.774,
+          "directionalAccuracy": 8.333
+        }
+      },
+      "whatIf": {
+        "baseCrudeOilPrice": 80.46,
+        "baseUsdInrRate": 95.32,
+        "crudeOilRawCoefficient": 0.5607,
+        "usdInrRawCoefficient": -0.113
+      },
+      "costExposure": [
+        {
+          "month": "2026-09",
+          "priceChangePct": -2.75,
+          "costBaseShiftPct": -0.96
+        },
+        {
+          "month": "2026-10",
+          "priceChangePct": -2.76,
+          "costBaseShiftPct": -0.97
+        },
+        {
+          "month": "2026-11",
+          "priceChangePct": -2.53,
+          "costBaseShiftPct": -0.89
+        },
+        {
+          "month": "2026-12",
+          "priceChangePct": -2.6,
+          "costBaseShiftPct": -0.91
+        },
+        {
+          "month": "2027-01",
+          "priceChangePct": -2.5,
+          "costBaseShiftPct": -0.87
+        },
+        {
+          "month": "2027-02",
+          "priceChangePct": -2.56,
+          "costBaseShiftPct": -0.89
+        }
+      ]
+    }
+  },
+  "knowledgeGraph": {
+    "nodes": [
+      {
+        "id": "crude_oil_price",
+        "category": "feedstock",
+        "isTarget": false,
+        "color": "#4a3aa7"
+      },
+      {
+        "id": "usd_inr_rate",
+        "category": "currency",
+        "isTarget": false,
+        "color": "#1baf7a"
+      },
+      {
+        "id": "freight_index",
+        "category": "logistics",
+        "isTarget": false,
+        "color": "#898781"
+      },
+      {
+        "id": "energy_price_index",
+        "category": "energy",
+        "isTarget": false,
+        "color": "#e87ba4"
+      },
+      {
+        "id": "pvc_resin_price",
+        "category": "target",
+        "isTarget": true,
+        "color": "#eb6834"
+      },
+      {
+        "id": "aluminium_price",
+        "category": "target",
+        "isTarget": true,
+        "color": "#2a78d6"
+      }
+    ],
+    "edges": [
+      {
+        "source": "crude_oil_price",
+        "target": "pvc_resin_price",
+        "correlation": 0.79,
+        "lagMonths": 1,
+        "modelInput": true,
+        "relationship": "1-month lagged crude oil price feeds naphtha cost, PVC resin's primary feedstock"
+      },
+      {
+        "source": "crude_oil_price",
+        "target": "aluminium_price",
+        "correlation": 0.7,
+        "lagMonths": 0,
+        "modelInput": true,
+        "relationship": "same-month crude oil price correlates with aluminium price via energy/production cost"
+      },
+      {
+        "source": "usd_inr_rate",
+        "target": "aluminium_price",
+        "correlation": 0.66,
+        "lagMonths": 6,
+        "modelInput": true,
+        "relationship": "a weaker rupee raises the cost of dollar-denominated aluminium/alumina imports; stays strongly correlated through a 6-month lag"
+      },
+      {
+        "source": "freight_index",
+        "target": "pvc_resin_price",
+        "correlation": 0.33,
+        "lagMonths": 0,
+        "modelInput": false,
+        "relationship": "higher freight rates raise the landed cost of imported PVC resin"
+      },
+      {
+        "source": "freight_index",
+        "target": "aluminium_price",
+        "correlation": 0.18,
+        "lagMonths": 0,
+        "modelInput": false,
+        "relationship": "higher freight rates raise the landed cost of imported aluminium"
+      },
+      {
+        "source": "energy_price_index",
+        "target": "aluminium_price",
+        "correlation": 0.674,
+        "lagMonths": 0,
+        "modelInput": true,
+        "relationship": "aluminium smelting is energy-intensive; US electric power PPI (FRED PCU221122221122) correlates with aluminium price same-month"
+      }
+    ]
+  },
+  "riskAlerts": [
+    {
+      "month": "2018-05",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.8,
+      "zScore": 2.05,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2018-09",
+      "driver": "usd_inr_rate",
+      "pctChange": 3.8,
+      "zScore": 2.91,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2018-11",
+      "driver": "crude_oil_price",
+      "pctChange": -19.48,
+      "zScore": -1.57,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2018-11",
+      "driver": "usd_inr_rate",
+      "pctChange": -2.48,
+      "zScore": -2.44,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2019-02",
+      "driver": "freight_index",
+      "pctChange": -29.64,
+      "zScore": -1.8,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2019-03",
+      "driver": "usd_inr_rate",
+      "pctChange": -2.37,
+      "zScore": -2.34,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2019-07",
+      "driver": "freight_index",
+      "pctChange": 29.57,
+      "zScore": 1.69,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2019-08",
+      "driver": "usd_inr_rate",
+      "pctChange": 3.56,
+      "zScore": 2.71,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2019-10",
+      "driver": "energy_price_index",
+      "pctChange": -4.84,
+      "zScore": -1.74,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-01",
+      "driver": "freight_index",
+      "pctChange": -28.08,
+      "zScore": -1.7,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-02",
+      "driver": "freight_index",
+      "pctChange": -25.01,
+      "zScore": -1.52,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-03",
+      "driver": "freight_index",
+      "pctChange": -26.23,
+      "zScore": -1.59,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-03",
+      "driver": "crude_oil_price",
+      "pctChange": -42.21,
+      "zScore": -3.32,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-03",
+      "driver": "usd_inr_rate",
+      "pctChange": 4.22,
+      "zScore": 3.27,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-04",
+      "driver": "crude_oil_price",
+      "pctChange": -43.35,
+      "zScore": -3.4,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-04",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.17,
+      "zScore": 1.52,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-05",
+      "driver": "freight_index",
+      "pctChange": -28.68,
+      "zScore": -1.74,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-05",
+      "driver": "crude_oil_price",
+      "pctChange": 72.61,
+      "zScore": 5.48,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "crude_oil_price",
+      "pctChange": 34.12,
+      "zScore": 2.53,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "energy_price_index",
+      "pctChange": 5.08,
+      "zScore": 1.55,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "freight_index",
+      "pctChange": 40.85,
+      "zScore": 2.35,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-09",
+      "driver": "usd_inr_rate",
+      "pctChange": -1.4,
+      "zScore": -1.52,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-10",
+      "driver": "energy_price_index",
+      "pctChange": -5.12,
+      "zScore": -1.84,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2021-01",
+      "driver": "freight_index",
+      "pctChange": 43.66,
+      "zScore": 2.52,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2021-03",
+      "driver": "freight_index",
+      "pctChange": 40.6,
+      "zScore": 2.34,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2021-04",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.33,
+      "zScore": 1.66,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2021-05",
+      "driver": "usd_inr_rate",
+      "pctChange": -1.76,
+      "zScore": -1.83,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2021-06",
+      "driver": "energy_price_index",
+      "pctChange": 6.03,
+      "zScore": 1.87,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2021-11",
+      "driver": "freight_index",
+      "pctChange": -34.35,
+      "zScore": -2.07,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2022-06",
+      "driver": "energy_price_index",
+      "pctChange": 8.11,
+      "zScore": 2.56,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2022-08",
+      "driver": "energy_price_index",
+      "pctChange": 11.38,
+      "zScore": 3.65,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2022-08",
+      "driver": "freight_index",
+      "pctChange": -32.71,
+      "zScore": -1.98,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2022-09",
+      "driver": "energy_price_index",
+      "pctChange": -5.98,
+      "zScore": -2.12,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2022-10",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.54,
+      "zScore": 1.83,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2022-10",
+      "driver": "energy_price_index",
+      "pctChange": -6.56,
+      "zScore": -2.32,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2022-11",
+      "driver": "energy_price_index",
+      "pctChange": -4.74,
+      "zScore": -1.71,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2023-03",
+      "driver": "freight_index",
+      "pctChange": 32.36,
+      "zScore": 1.85,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2023-06",
+      "driver": "energy_price_index",
+      "pctChange": 6.34,
+      "zScore": 1.97,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2023-10",
+      "driver": "energy_price_index",
+      "pctChange": -4.24,
+      "zScore": -1.54,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2023-12",
+      "driver": "freight_index",
+      "pctChange": 52.34,
+      "zScore": 3.03,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2024-06",
+      "driver": "energy_price_index",
+      "pctChange": 8.39,
+      "zScore": 2.65,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2025-06",
+      "driver": "energy_price_index",
+      "pctChange": 6.55,
+      "zScore": 2.04,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2026-02",
+      "driver": "energy_price_index",
+      "pctChange": 5.56,
+      "zScore": 1.71,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "driver": "energy_price_index",
+      "pctChange": -7.72,
+      "zScore": -2.7,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "driver": "crude_oil_price",
+      "pctChange": 41.66,
+      "zScore": 3.11,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.28,
+      "zScore": 1.62,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2026-05",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.2,
+      "zScore": 1.54,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2026-06",
+      "driver": "energy_price_index",
+      "pctChange": 7.0,
+      "zScore": 2.19,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    }
+  ],
+  "covidExample": [
+    {
+      "month": "2020-03",
+      "driver": "freight_index",
+      "pctChange": -26.23,
+      "zScore": -1.59,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-03",
+      "driver": "crude_oil_price",
+      "pctChange": -42.21,
+      "zScore": -3.32,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-03",
+      "driver": "usd_inr_rate",
+      "pctChange": 4.22,
+      "zScore": 3.27,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-04",
+      "driver": "crude_oil_price",
+      "pctChange": -43.35,
+      "zScore": -3.4,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-04",
+      "driver": "usd_inr_rate",
+      "pctChange": 2.17,
+      "zScore": 1.52,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-05",
+      "driver": "freight_index",
+      "pctChange": -28.68,
+      "zScore": -1.74,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-05",
+      "driver": "crude_oil_price",
+      "pctChange": 72.61,
+      "zScore": 5.48,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "crude_oil_price",
+      "pctChange": 34.12,
+      "zScore": 2.53,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "energy_price_index",
+      "pctChange": 5.08,
+      "zScore": 1.55,
+      "affectedTargets": [
+        "aluminium_price"
+      ]
+    },
+    {
+      "month": "2020-06",
+      "driver": "freight_index",
+      "pctChange": 40.85,
+      "zScore": 2.35,
+      "affectedTargets": [
+        "aluminium_price",
+        "pvc_resin_price"
+      ]
+    }
+  ],
+  "costExposureAssumptions": {
+    "rmCostShareTotal": 0.7,
+    "materialCostShare": {
+      "aluminium_price": 0.35,
+      "pvc_resin_price": 0.35
+    }
+  }
+}

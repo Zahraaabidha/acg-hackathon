@@ -6,6 +6,12 @@
       "runtimeExecutable": "streamlit",
       "runtimeArgs": ["run", "src/dashboard.py", "--server.headless", "true"],
       "port": 8501
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "dev", "--", "--port", "5173", "--strictPort"],
+      "port": 5173
     }
   ]
 }
