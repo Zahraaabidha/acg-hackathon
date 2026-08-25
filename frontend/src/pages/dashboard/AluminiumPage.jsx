@@ -14,7 +14,7 @@ export default function AluminiumPage() {
           Aluminium Forecast
         </h1>
         <p className="mt-1.5 max-w-2xl text-[13px] text-[var(--color-ink-muted)]">
-          Ridge regression, 6-month horizon, 90% prediction interval — what-if sliders carry over from Overview.
+          Ridge regression, 6-month horizon, 90% prediction interval - what-if sliders carry over from Overview.
         </p>
       </div>
 

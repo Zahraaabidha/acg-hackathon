@@ -145,7 +145,7 @@ export function KnowledgeGraph({ graph, id }) {
               {activeEdge.lagMonths ? `${activeEdge.lagMonths}mo lag` : "same-month"}
             </p>
             <p className="mt-1 text-[var(--color-ink-muted)]">
-              {activeEdge.modelInput ? "Used as model feature" : "Qualitative only — not a model feature"}
+              {activeEdge.modelInput ? "Used as model feature" : "Qualitative only - not a model feature"}
             </p>
           </div>
         )}

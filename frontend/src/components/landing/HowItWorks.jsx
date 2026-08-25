@@ -6,13 +6,13 @@ const PIPELINE_STEPS = [
     step: "01",
     label: "FETCH",
     heading: "Live FRED and market data pulled monthly.",
-    detail: "Crude oil, USD/INR, US electric power PPI, and Baltic Dry Index freight — all free, public series.",
+    detail: "Crude oil, USD/INR, US electric power PPI, and Baltic Dry Index freight - all free, public series.",
   },
   {
     step: "02",
     label: "CORRELATE",
     heading: "Every driver tested against both targets.",
-    detail: "Pearson correlation at 0, 1, 2, 3 and 6-month lags — only drivers clearing 0.5+ get considered.",
+    detail: "Pearson correlation at 0, 1, 2, 3 and 6-month lags - only drivers clearing 0.5+ get considered.",
   },
   {
     step: "03",
@@ -30,13 +30,13 @@ const PIPELINE_STEPS = [
     step: "05",
     label: "SIGNAL",
     heading: "Buy / wait / monitor, weighted by confidence.",
-    detail: "Forecast vs. trailing average, tempered by interval width — a wide interval leans toward monitoring.",
+    detail: "Forecast vs. trailing average, tempered by interval width - a wide interval leans toward monitoring.",
   },
   {
     step: "06",
     label: "ALERT",
     heading: "Shock detection validated against real history.",
-    detail: "Any driver move beyond 1.5 std devs is flagged — correctly fires on the 2020 COVID collapse.",
+    detail: "Any driver move beyond 1.5 std devs is flagged - correctly fires on the 2020 COVID collapse.",
   },
 ];
 

@@ -37,7 +37,7 @@ export function WhatIfPanel({ crudePct, fxPct, onCrudeChange, onFxChange }) {
     <Card
       eyebrow="Live Simulation"
       title="What-if scenario"
-      subtitle="Simple linear recomputation from the deployed Ridge model's stored coefficients — client-side only, no live model call. Shifts the same-month input; lag and rolling context stay fixed."
+      subtitle="Simple linear recomputation from the deployed Ridge model's stored coefficients - client-side only, no live model call. Shifts the same-month input; lag and rolling context stay fixed."
       action={
         isActive && (
           <button

@@ -61,7 +61,7 @@ export default function OverviewPage() {
           Aluminium &amp; PVC Resin Forecast
         </h1>
         <p className="mt-1.5 max-w-2xl text-[13px] text-[var(--color-ink-muted)]">
-          6-month Ridge forecast, causal driver graph, and procurement signals — data as of{" "}
+          6-month Ridge forecast, causal driver graph, and procurement signals - data as of{" "}
           <span className="tabular-nums font-medium text-[var(--color-ink-primary)]">{data.dataAsOf}</span>
         </p>
       </div>

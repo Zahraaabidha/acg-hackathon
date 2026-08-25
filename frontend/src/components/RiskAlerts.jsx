@@ -26,12 +26,12 @@ export function RiskAlerts({ riskAlerts, covidExample, id }) {
       id={id}
       eyebrow="Shock Detection"
       title="Risk / shock alerts"
-      subtitle={`${riskAlerts.length} driver-months flagged across history (>1.5 std devs from that driver's own average move) — validated against real events, including the 2020 COVID collapse below.`}
+      subtitle={`${riskAlerts.length} driver-months flagged across history (>1.5 std devs from that driver's own average move) - validated against real events, including the 2020 COVID collapse below.`}
     >
       <div className="mb-4 flex items-center gap-2">
         <span className="inline-flex h-2 w-2 rounded-full" style={{ backgroundColor: "var(--color-critical)" }} />
         <p className="text-[13px] font-semibold text-[var(--color-ink-primary)]">
-          Validation example — COVID crude oil collapse, {monthLabel(covidExample[0]?.month ?? "2020-03")} to{" "}
+          Validation example - COVID crude oil collapse, {monthLabel(covidExample[0]?.month ?? "2020-03")} to{" "}
           {monthLabel(covidExample[covidExample.length - 1]?.month ?? "2020-06")}
         </p>
       </div>
