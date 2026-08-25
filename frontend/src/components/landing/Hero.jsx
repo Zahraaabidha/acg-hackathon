@@ -7,6 +7,15 @@ export function Hero() {
       className="relative flex min-h-screen flex-col overflow-hidden"
       style={{ backgroundColor: "#0a0a0a" }}
     >
+      <video
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover"
+        src="/hero-bg.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+      />
       {/* Ambient glow - aluminium blue + PVC orange, echoing the two materials this project forecasts */}
       <div
         className="pointer-events-none absolute inset-0"
@@ -27,7 +36,7 @@ export function Hero() {
       <div className="relative z-10 flex flex-1 flex-col">
         <div className="flex-1" />
 
-        <div className="mx-auto w-full max-w-[1200px] px-5 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
+        <div className="mx-auto w-full max-w-[1200px] px-5 pb-40 sm:px-8 sm:pb-44 lg:px-12 lg:pb-48">
           <p className="mb-5 text-[13px] tracking-wide text-white/60 sm:mb-8">
             ACG Smart Buy · Raw Material Intelligence
           </p>
@@ -41,16 +50,11 @@ export function Hero() {
             <span className="block">they hit procurement.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-white/60 sm:mt-8">
-            A causal driver graph, a Ridge regression model beating naive forecasts on both materials, and a
-            confidence-weighted buy/wait signal — covering ~70% of ACG's raw material cost base.
-          </p>
-
           <div className="mt-8 flex flex-col items-start gap-4 sm:mt-12 sm:flex-row sm:items-center sm:gap-5">
             <PillButton label="Open Dashboard" variant="brand" href="/dashboard" />
             <a
               href="#how-it-works"
-              className="text-[13px] font-medium text-white/70 transition-colors hover:text-white"
+              className="text-[13px] font-medium text-white transition-colors hover:text-white"
             >
               See how it works ↓
             </a>
