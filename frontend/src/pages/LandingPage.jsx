@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useDashboardData } from "../hooks/useDashboardData";
 import { LandingNav } from "../components/landing/LandingNav";
 import { Hero } from "../components/landing/Hero";
@@ -9,8 +10,14 @@ import { LandingFooter } from "../components/landing/LandingFooter";
 export default function LandingPage() {
   const { data } = useDashboardData();
 
+  useEffect(() => {
+    document.body.classList.add("landing-page-active");
+
+    return () => document.body.classList.remove("landing-page-active");
+  }, []);
+
   return (
-    <div className="relative" style={{ backgroundColor: "#0a0a0a" }}>
+    <div className="landing-page relative" style={{ backgroundColor: "#0a0a0a" }}>
       <div className="absolute top-0 z-20 w-full">
         <LandingNav />
       </div>

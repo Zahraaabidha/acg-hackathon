@@ -52,6 +52,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+html:has(body.landing-page-active) {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html:has(body.landing-page-active)::-webkit-scrollbar {
+  display: none;
+}
+
 .font-display {
   font-family: var(--font-display);
 }

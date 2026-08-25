@@ -8,9 +8,7 @@ export function LandingFooter() {
           </div>
           <span className="text-[13px] text-white/60">ACG Smart Buy · Raw Material Intelligence</span>
         </div>
-        <p className="text-[12px] text-white/40">
-          Static demo — no live API calls in the browser. All figures generated from real FRED/market data.
-        </p>
+
       </div>
     </footer>
   );
